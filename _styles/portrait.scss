@@ -1,0 +1,117 @@
+---
+---
+
+.portrait-wrapper {
+  display: contents;
+}
+
+.portrait {
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 20px;
+  width: 175px;
+  max-width: calc(100% - 20px - 20px);
+  text-decoration: none;
+  color: #000000;
+  transition: color var(--transition);
+}
+
+.portrait:hover {
+  color: #800000;
+}
+
+a.portrait,
+a.portrait:visited {
+  color: #000000 !important;
+}
+
+a.portrait:hover {
+  color: #800000 !important;
+}
+
+a.portrait .portrait-name,
+a.portrait .portrait-description,
+a.portrait .portrait-affiliation,
+a.portrait .icon {
+  color: #000000 !important;
+}
+
+a.portrait:hover .portrait-name,
+a.portrait:hover .portrait-description,
+a.portrait:hover .portrait-affiliation,
+a.portrait:hover .icon {
+  color: #800000 !important;
+}
+
+a.portrait .icon::before {
+  color: #000000 !important;
+}
+
+a.portrait:hover .icon::before {
+  color: #800000 !important;
+}
+
+.portrait[data-style="small"] {
+  width: 100px;
+}
+
+.portrait[data-style="tiny"] {
+  flex-direction: row;
+  gap: 15px;
+  width: unset;
+  text-align: left;
+}
+
+.portrait .icon {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: calc(20px + 10%);
+  aspect-ratio: 1 / 1;
+  border-radius: 999px;
+  background: var(--background);
+  box-shadow: var(--shadow);
+  transform: translate(14%, 14%);
+  color: #000000;
+}
+
+.portrait[data-style="small"] .icon {
+  left: -2px;
+  top: -2px;
+}
+
+.portrait[data-style="tiny"] .icon {
+  display: none;
+}
+
+.portrait-image {
+  width: 100%;
+  margin-bottom: 20px;
+  aspect-ratio: 1 / 1;
+  border-radius: 999px;
+  object-fit: cover;
+  box-shadow: var(--shadow);
+}
+
+.portrait[data-style="tiny"] .portrait-image {
+  width: 50px;
+  margin: 0;
+}
+
+.portrait-name {
+  font-family: var(--heading);
+  font-weight: var(--semi-bold);
+}
+
+.portrait[data-style="tiny"] {
+  .portrait-description,
+  .portrait-affiliation {
+    display: none;
+  }
+}

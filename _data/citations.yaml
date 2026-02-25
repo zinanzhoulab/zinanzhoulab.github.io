@@ -1,0 +1,450 @@
+# DO NOT EDIT, GENERATED AUTOMATICALLY
+
+- id: doi:10.1073/pnas.2509622122
+  title: Cell-type-informed genotyping of mosaic focal epilepsies reveals cell-autonomous
+    and non-cell-autonomous disease-associated transcriptional programs
+  authors:
+  - Sara Bizzotto
+  - Maya Talukdar
+  - Edward A. Stronge
+  - Rosita B. Ramirez
+  - Yingxi Yang
+  - August Yue Huang
+  - Qiwen Hu
+  - Yingping Hou
+  - Norma K. Hylton
+  - Benjamin Finander
+  - Ashton Tillett
+  - Zinan Zhou
+  - Brian H. Chhouk
+  - "Alissa M. D\u2019Gama"
+  - Edward Yang
+  - Timothy E. Green
+  - David C. Reutens
+  - Saul A. Mullen
+  - Ingrid E. Scheffer
+  - Michael S. Hildebrand
+  - Russell J. Buono
+  - "Ingmar Bl\xFCmcke"
+  - Annapurna H. Poduri
+  - Sattar Khoshkhoo
+  - Christopher A. Walsh
+  publisher: Proceedings of the National Academy of Sciences
+  date: '2025-07-17'
+  link: https://doi.org/hbf8ms
+  orcid: 0000-0003-2014-3650
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1101/2025.05.19.654981
+  title: "Clonal Hematopoiesis Mutations Increase Risk of Alzheimer\u2019s Disease\
+    \ with\n                  <i>APOE</i>\n                  \u03B53/\u03B53 Genotype"
+  authors:
+  - Jaejoon Choi
+  - Kyung Sun Park
+  - Yann Le Guen
+  - Jong-Ho Park
+  - Zinan Zhou
+  - Liz Enyenihi
+  - Ila Rosen
+  - Yoon-Ho Choi
+  - Christopher A. Walsh
+  - Jong-Won Kim
+  - August Yue Huang
+  - Eunjung Alice Lee
+  publisher: bioRxiv
+  date: '2025-05-21'
+  link: https://doi.org/hbp59v
+  orcid: 0000-0003-2014-3650
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1038/s41576-025-00832-3
+  title: Advances in single-cell DNA sequencing enable insights into human somatic
+    mosaicism
+  authors:
+  - Diane D. Shao
+  - Andrea J. Kriz
+  - Daniel A. Snellings
+  - Zinan Zhou
+  - Yifan Zhao
+  - Liz Enyenihi
+  - Christopher Walsh
+  publisher: Nature Reviews Genetics
+  date: '2025-04-25'
+  link: https://doi.org/hbp59x
+  orcid: 0000-0003-2014-3650
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1101/2025.03.03.641186
+  title: Recurrent patterns of widespread neuronal genomic damage shared by major
+    neurodegenerative disorders
+  authors:
+  - Zinan Zhou
+  - Lovelace J. Luquette
+  - Guanlan Dong
+  - Junho Kim
+  - Jayoung Ku
+  - Kisong Kim
+  - Mingyun Bae
+  - Diane D. Shao
+  - Bezawit Sahile
+  - Michael B. Miller
+  - August Yue Huang
+  - William J. Nathan
+  - Andre Nussenzweig
+  - Peter J. Park
+  - Clotilde Lagier-Tourenne
+  - Eunjung Alice Lee
+  - Christopher A. Walsh
+  publisher: bioRxiv
+  date: '2025-03-05'
+  link: https://doi.org/hbp59z
+  orcid: 0000-0003-2014-3650
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1007/s00401-024-02774-2
+  title: Neuropathologically directed profiling of PRNP somatic and germline variants
+    in sporadic human prion disease
+  authors:
+  - Gannon A. McDonough
+  - Yuchen Cheng
+  - Katherine S. Morillo
+  - Ryan N. Doan
+  - Zinan Zhou
+  - Connor J. Kenny
+  - Aaron Foutz
+  - Chae Kim
+  - Mark L. Cohen
+  - Brian S. Appleby
+  - Christopher A. Walsh
+  - Jiri G. Safar
+  - August Yue Huang
+  - Michael B. Miller
+  publisher: Acta Neuropathologica
+  date: '2024-07-24'
+  link: https://doi.org/hbp592
+  orcid: 0000-0003-2014-3650
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.cell.2024.02.025
+  title: Contrasting somatic mutation patterns in aging human neurons and oligodendrocytes
+  authors:
+  - Javier Ganz
+  - Lovelace J. Luquette
+  - Sara Bizzotto
+  - Michael B. Miller
+  - Zinan Zhou
+  - Craig L. Bohrson
+  - Hu Jin
+  - Antuan V. Tran
+  - Vinayak V. Viswanadham
+  - Gannon McDonough
+  - Katherine Brown
+  - Yasmine Chahine
+  - Brian Chhouk
+  - Alon Galor
+  - Peter J. Park
+  - Christopher A. Walsh
+  publisher: Cell
+  date: '2024-04-01'
+  link: https://doi.org/gtx2p6
+  orcid: 0000-0003-2014-3650
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1101/2024.01.03.574078
+  title: "Somatic cancer driver mutations are enriched and associated with inflammatory\
+    \ states in Alzheimer\u2019s disease microglia"
+  authors:
+  - August Yue Huang
+  - Zinan Zhou
+  - Maya Talukdar
+  - Michael B. Miller
+  - Brian Chhouk
+  - Liz Enyenihi
+  - Ila Rosen
+  - Edward Stronge
+  - Boxun Zhao
+  - Dachan Kim
+  - Jaejoon Choi
+  - Sattar Khoshkhoo
+  - Junho Kim
+  - Javier Ganz
+  - Kyle Travaglini
+  - Mariano Gabitto
+  - Rebecca Hodge
+  - Eitan Kaplan
+  - Ed Lein
+  - Philip L. De Jager
+  - David A. Bennett
+  - Eunjung Alice Lee
+  - Christopher A. Walsh
+  publisher: bioRxiv
+  date: '2024-01-04'
+  link: https://doi.org/hbp594
+  orcid: 0000-0003-2014-3650
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1101/2023.11.30.569436
+  title: Somatic Mosaicism in Amyotrophic Lateral Sclerosis and Frontotemporal Dementia
+    Reveals Widespread Degeneration from Focal Mutations
+  authors:
+  - Zinan Zhou
+  - Junho Kim
+  - August Yue Huang
+  - Matthew Nolan
+  - Junseok Park
+  - Ryan Doan
+  - Taehwan Shin
+  - Michael B. Miller
+  - Brian Chhouk
+  - Katherine Morillo
+  - Rebecca C. Yeh
+  - Connor Kenny
+  - Jennifer E. Neil
+  - Chao-Zong Lee
+  - Takuya Ohkubo
+  - John Ravits
+  - Olaf Ansorge
+  - Lyle W. Ostrow
+  - Clotilde Lagier-Tourenne
+  - Eunjung Alice Lee
+  - Christopher A. Walsh
+  publisher: bioRxiv
+  date: '2023-12-01'
+  link: https://doi.org/hbp595
+  orcid: 0000-0003-2014-3650
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1038/s41588-022-01180-2
+  title: Single-cell genome sequencing of human neurons identifies somatic point mutation
+    and indel enrichment in regulatory elements
+  authors:
+  - Lovelace J. Luquette
+  - Michael B. Miller
+  - Zinan Zhou
+  - Craig L. Bohrson
+  - Yifan Zhao
+  - Hu Jin
+  - Doga Gulhan
+  - Javier Ganz
+  - Sara Bizzotto
+  - Samantha Kirkham
+  - Tino Hochepied
+  - Claude Libert
+  - Alon Galor
+  - Junho Kim
+  - Michael A. Lodato
+  - Juan I. Garaycoechea
+  - Charles Gawad
+  - Jay West
+  - Christopher A. Walsh
+  - Peter J. Park
+  publisher: Nature Genetics
+  date: '2022-09-26'
+  link: https://doi.org/g9m52v
+  orcid: 0000-0003-2014-3650
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1038/s43587-022-00261-5
+  title: Somatic mutations in single human cardiomyocytes reveal age-associated DNA
+    damage and widespread oxidative genotoxicity
+  authors:
+  - Sangita Choudhury
+  - August Yue Huang
+  - Junho Kim
+  - Zinan Zhou
+  - Katherine Morillo
+  - Eduardo A. Maury
+  - Jessica W. Tsai
+  - Michael B. Miller
+  - Michael A. Lodato
+  - Sarah Araten
+  - Nazia Hilal
+  - Eunjung Alice Lee
+  - Ming Hui Chen
+  - Christopher A. Walsh
+  publisher: Nature Aging
+  date: '2022-08-11'
+  link: https://doi.org/gqnd8f
+  orcid: 0000-0003-2014-3650
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1038/s41586-022-04640-1
+  title: "Somatic genomic changes in single Alzheimer\u2019s disease neurons"
+  authors:
+  - Michael B. Miller
+  - August Yue Huang
+  - Junho Kim
+  - Zinan Zhou
+  - Samantha L. Kirkham
+  - Eduardo A. Maury
+  - Jennifer S. Ziegenfuss
+  - Hannah C. Reed
+  - Jennifer E. Neil
+  - Lariza Rento
+  - Steven C. Ryu
+  - Chanthia C. Ma
+  - Lovelace J. Luquette
+  - Heather M. Ames
+  - Derek H. Oakley
+  - Matthew P. Frosch
+  - Bradley T. Hyman
+  - Michael A. Lodato
+  - Eunjung Alice Lee
+  - Christopher A. Walsh
+  publisher: Nature
+  date: '2022-04-20'
+  link: https://doi.org/gtdcxd
+  orcid: 0000-0003-2014-3650
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1158/2159-8290.cd-21-0245
+  title: Rates and Patterns of Clonal Oncogenic Mutations in the Normal Human Brain
+  authors:
+  - Javier Ganz
+  - Eduardo A. Maury
+  - Basheer Becerra
+  - Sara Bizzotto
+  - Ryan N. Doan
+  - Connor J. Kenny
+  - Taehwan Shin
+  - Junho Kim
+  - Zinan Zhou
+  - Keith L. Ligon
+  - Eunjung Alice Lee
+  - Christopher A. Walsh
+  publisher: Cancer Discovery
+  date: '2021-08-13'
+  link: https://doi.org/hbp597
+  orcid: 0000-0003-2014-3650
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1371/journal.pone.0160833
+  title: Micro-CT Imaging Reveals Mekk3 Heterozygosity Prevents Cerebral Cavernous
+    Malformations in Ccm2-Deficient Mice
+  authors:
+  - Jaesung P. Choi
+  - Matthew Foley
+  - Zinan Zhou
+  - Weng-Yew Wong
+  - Naveena Gokoolparsadh
+  - J. Simon C. Arthur
+  - Dean Y. Li
+  - Xiangjian Zheng
+  publisher: PLOS ONE
+  date: '2016-08-11'
+  link: https://doi.org/gbp3qd
+  orcid: 0000-0003-2014-3650
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.bios.2016.06.043
+  title: Label-free fluorimetric detection of CEA using carbon dots derived from tomato
+    juice
+  authors:
+  - Hong Miao
+  - Lan Wang
+  - Yan Zhuo
+  - Zinan Zhou
+  - Xiaoming Yang
+  publisher: Biosensors and Bioelectronics
+  date: '2016-12-01'
+  link: https://doi.org/f8632q
+  orcid: 0000-0003-2014-3650
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1038/nature17178
+  title: "Cerebral cavernous malformations arise from endothelial gain of MEKK3\u2013\
+    KLF2/4 signalling"
+  authors:
+  - Zinan Zhou
+  - Alan T. Tang
+  - Weng-Yew Wong
+  - Sharika Bamezai
+  - Lauren M. Goddard
+  - Robert Shenkar
+  - Su Zhou
+  - Jisheng Yang
+  - Alexander C. Wright
+  - Matthew Foley
+  - J. Simon C. Arthur
+  - Kevin J. Whitehead
+  - Issam A. Awad
+  - Dean Y. Li
+  - Xiangjian Zheng
+  - Mark L. Kahn
+  publisher: Nature
+  date: '2016-03-30'
+  link: https://doi.org/f8gsk4
+  orcid: 0000-0003-2014-3650
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1039/c5nr05362e
+  title: 'Papain-templated Cu nanoclusters: assaying and exhibiting dramatic antibacterial
+    activity cooperating with H<sub>2</sub>O<sub>2</sub>'
+  authors:
+  - Hong Miao
+  - Dan Zhong
+  - Zinan Zhou
+  - Xiaoming Yang
+  publisher: Nanoscale
+  date: '2015-01-01'
+  link: https://doi.org/hbp599
+  orcid: 0000-0003-2014-3650
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.devcel.2014.12.009
+  title: The Cerebral Cavernous Malformation Pathway Controls Cardiac Development
+    via Regulation of Endocardial MEKK3 Signaling and KLF Expression
+  authors:
+  - Zinan Zhou
+  - David R. Rawnsley
+  - "Lauren\_M. Goddard"
+  - Wei Pan
+  - Xing-Jun Cao
+  - Zoltan Jakus
+  - Hui Zheng
+  - Jisheng Yang
+  - "J.\_Simon\_C. Arthur"
+  - "Kevin\_J. Whitehead"
+  - Dean Li
+  - Bin Zhou
+  - "Benjamin\_A. Garcia"
+  - Xiangjian Zheng
+  - "Mark\_L. Kahn"
+  publisher: Developmental Cell
+  date: '2015-01-01'
+  link: https://doi.org/f6x553
+  orcid: 0000-0003-2014-3650
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1002/rcm.6958
+  title: "Stable isotope dilution liquid chromatography/mass spectrometry analysis\
+    \ of cellular and tissue medium\u2010 and long\u2010chain acyl\u2010coenzyme A\
+    \ thioesters"
+  authors:
+  - Nathaniel W. Snyder
+  - Sankha S. Basu
+  - Zinan Zhou
+  - Andrew J. Worth
+  - Ian A. Blair
+  publisher: Rapid Communications in Mass Spectrometry
+  date: '2014-07-09'
+  link: https://doi.org/f6dgzz
+  orcid: 0000-0003-2014-3650
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1074/jbc.c109.001560
+  title: Plk1-mediated Phosphorylation of Topors Regulates p53 Stability
+  authors:
+  - Xiaoming Yang
+  - Hongchang Li
+  - Zinan Zhou
+  - Wen-Horng Wang
+  - Anping Deng
+  - Ourania Andrisani
+  - Xiaoqi Liu
+  publisher: Journal of Biological Chemistry
+  date: '2009-07-01'
+  link: https://doi.org/c3z3b6
+  orcid: 0000-0003-2014-3650
+  plugin: orcid.py
+  file: orcid.yaml
