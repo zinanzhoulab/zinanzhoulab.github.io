@@ -1,0 +1,35 @@
+a {
+  color: #000000;
+  transition: color var(--transition);
+  overflow-wrap: break-word;
+}
+
+a:hover {
+  color: #800000;
+}
+
+a:not([href]) {
+  color: #000000;
+}
+
+/* Keep team portrait links aligned with global link colors. */
+a.portrait,
+a.portrait:visited,
+a.portrait .portrait-name,
+a.portrait .portrait-description,
+a.portrait .portrait-affiliation,
+a.portrait .icon,
+a.portrait .icon::before {
+  color: #000000 !important;
+}
+
+a.portrait:hover,
+a.portrait:hover .portrait-name,
+a.portrait:hover .portrait-description,
+a.portrait:hover .portrait-affiliation,
+a.portrait:hover .icon,
+a.portrait:hover .icon::before {
+  color: #800000 !important;
+}
+
+/*# sourceMappingURL=link.css.map */
