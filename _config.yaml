@@ -1,10 +1,12 @@
 # site properties and page defaults
 title: Zhou Lab | University of Chicago
 subtitle: ""
-description: Research on somatic mosaicism in brain aging and neurodegenerative disorders
+description: Zhou Lab at the University of Chicago studies somatic mutations, neurodegeneration, and single-cell genomics.
 header: images/background2.png
 footer: images/background2.png
 proofer: false
+url: "https://zhoulab.bio"
+baseurl: ""
 
 # site social media and other links
 links:
