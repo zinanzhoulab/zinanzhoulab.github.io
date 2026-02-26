@@ -37,6 +37,12 @@ header a {
   text-decoration: none;
 }
 
+.home:hover,
+.home:focus,
+.home:active {
+  color: #ffffff;
+}
+
 .home {
   display: flex;
   justify-content: flex-start;
