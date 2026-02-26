@@ -8,11 +8,12 @@
 {% endif %}
 
 {% assign type = site.data.types[member.role] %}
+{% assign portrait_href = member.redirect | default: member.url %}
 
 <div class="portrait-wrapper">
   <a
-    {% if page.slug != member.slug %}
-      href="{{ member.url | relative_url | uri_escape }}"
+    {% if page.slug != member.slug or member.redirect %}
+      href="{{ portrait_href | relative_url | uri_escape }}"
     {% endif %}
     class="portrait"
     data-style="{{ include.style }}"
