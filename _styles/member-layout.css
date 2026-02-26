@@ -1,0 +1,37 @@
+.member-layout {
+  display: grid;
+  grid-template-columns: 320px minmax(0, 1fr);
+  gap: 32px;
+  align-items: start;
+}
+
+.member-sidebar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.member-links {
+  margin-top: 8px;
+  text-align: center;
+}
+
+.member-bio {
+  text-align: left;
+}
+
+.member-bio > :first-child {
+  margin-top: 20px;
+}
+
+@media (max-width: 900px) {
+  .member-layout {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+  .member-bio {
+    text-align: center;
+  }
+}
+
+/*# sourceMappingURL=member-layout.css.map */

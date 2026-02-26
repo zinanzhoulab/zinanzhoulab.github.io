@@ -1,1 +1,1 @@
-Sitemap: https://zinanzhoulab.github.io/sitemap.xml
+Sitemap: https://zhoulab.bio/sitemap.xml
