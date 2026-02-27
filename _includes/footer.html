@@ -10,7 +10,9 @@
   data-size="wide"
 >
   <div class="footer-left">
-    <img src="{{ 'images/Uchicago_neurology.png' | relative_url | uri_escape }}" alt="UChicago Neurology">
+    <a class="footer-logo-link" href="https://neurology.uchicago.edu/" target="_blank" rel="noopener noreferrer" aria-label="University of Chicago Department of Neurology">
+      <img src="{{ 'images/Uchicago_neurology.png' | relative_url | uri_escape }}" alt="UChicago Neurology">
+    </a>
   </div>
 
   <div class="footer-center">
@@ -44,8 +46,12 @@
   </div>
 
   <div class="footer-right">
-    <img src="{{ 'images/neuro_institute.svg' | relative_url | uri_escape }}" alt="Neuroscience Institute">
-    <img src="{{ 'images/center_logo.png' | relative_url | uri_escape }}" alt="Center Logo">
+    <a class="footer-logo-link" href="https://neuroscience.uchicago.edu/neuroscience-institute" target="_blank" rel="noopener noreferrer" aria-label="The University of Chicago Neuroscience Institute">
+      <img src="{{ 'images/neuro_institute.png' | relative_url | uri_escape }}" alt="Neuroscience Institute">
+    </a>
+    <a class="footer-logo-link" href="https://neuroscience.uchicago.edu/center-motor-neuron-disease" target="_blank" rel="noopener noreferrer" aria-label="The University of Chicago Center for Motor Neuron Disease">
+      <img src="{{ 'images/center_logo.png' | relative_url | uri_escape }}" alt="Center Logo">
+    </a>
   </div>
 
 </footer>
