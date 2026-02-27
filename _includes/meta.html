@@ -32,10 +32,11 @@
 
 {% assign description = description | xml_escape %}
 
-{% assign png = "images/icon2.png" | file_exists %}
-{% assign fallback_png = "images/icon.png" | file_exists %}
+{% assign png = "images/icon3.png" | file_exists %}
+{% assign fallback_png = "images/icon2.png" | file_exists %}
+{% assign fallback_png2 = "images/icon.png" | file_exists %}
 {% assign jpg = "images/icon.jpg" | file_exists %}
-{% assign icon = png | default: fallback_png | default: jpg | relative_url %}
+{% assign icon = png | default: fallback_png | default: fallback_png2 | default: jpg | relative_url %}
 {% assign icon48_file = "images/icon-48.png" | file_exists %}
 {% assign icon192_file = "images/icon-192.png" | file_exists %}
 {% assign icon512_file = "images/icon-512.png" | file_exists %}
