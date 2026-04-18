@@ -36,8 +36,8 @@ jobs:
         if: github.event.action != 'closed'
         uses: actions/checkout@v4
         with:
-          repository: ${{ github.event.pull_request.head.repo.full_name }}
-          ref: ${{ github.head_ref }}
+          repository: ${{ github.event.pull_request.head.repo.full_name || github.repository }}
+          ref: ${{ github.head_ref || github.ref_name }}
 
       - name: Set up Python
         if: github.event.action != 'closed'
@@ -51,6 +51,10 @@ jobs:
         if: github.event.action != 'closed'
         run: |
           python -m pip install --upgrade --requirement ./_cite/requirements.txt
+
+      - name: Clear citation cache
+        if: github.event.action != 'closed'
+        run: rm -rf _cite/.cache
 
       - name: SSH debug
         if: runner.debug == '1'
@@ -75,6 +79,10 @@ jobs:
         with:
           files: |
             _data/citations.yaml
+
+      - name: Report citation diff status
+        if: github.event.action != 'closed'
+        run: echo "citations_changed=${{ steps.changed.outputs.files_changed }}"
 
       - name: Commit updated citations to branch
         if: |
