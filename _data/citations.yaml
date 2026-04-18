@@ -1,5 +1,107 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: doi:10.1038/s41588-026-02570-6
+  title: Somatic mosaicism in ALS and FTD identifies focal mutations associated with
+    widespread degeneration
+  authors:
+  - Zinan Zhou
+  - Junho Kim
+  - August Yue Huang
+  - Matthew Nolan
+  - Junseok Park
+  - Ryan Doan
+  - Taehwan Shin
+  - Michael B. Miller
+  - Mingyun Bae
+  - Boxun Zhao
+  - Jinhyeong Kim
+  - Brian Chhouk
+  - Katherine Morillo
+  - Rebecca C. Yeh
+  - Connor Kenny
+  - Jennifer E. Neil
+  - Chao-Zong Lee
+  - Takuya Ohkubo
+  - John Ravits
+  - Olaf Ansorge
+  - Lyle W. Ostrow
+  - Clotilde Lagier-Tourenne
+  - Eunjung Alice Lee
+  - Christopher A. Walsh
+  publisher: Nature Genetics
+  date: '2026-04-15'
+  link: https://doi.org/hbxm5h
+  orcid: 0000-0003-2014-3650
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.64898/2026.01.26.701822
+  title: Activating Ras-MAPK pathway variants drive hippocampal clonal competition
+    in human epilepsy
+  authors:
+  - Sattar Khoshkhoo
+  - Mingyun Bae
+  - Yilan Wang
+  - Ashton Tillett
+  - Rosita B. Ramirez
+  - Benjamin Finander
+  - Emily D. Egan
+  - Linus Marx
+  - Dipan Patel
+  - Zinan Zhou
+  - Yasmine Chahine
+  - Brian Chhouk
+  - Sofia M. Zoullas
+  - Abbe Lai
+  - Roland Coras
+  - Franck Bielle
+  - Vincent Navarro
+  - Bertrand Mathon
+  - Taufik A. Valiante
+  - Homeira Moradi Chameh
+  - Andrew F. Gao
+  - Timo Krings
+  - Samuel Gooley
+  - Michael S. Hildebrand
+  - Kristian Bulluss
+  - Jonathan Clark
+  - Andrew P. Morokoff
+  - James A. King
+  - Marian Todaro
+  - Patrick Kwan
+  - "Terence J. O\u2019Brien"
+  - Samuel F. Berkovic
+  - Ingrid E. Scheffer
+  - Piero Perucca
+  - Emily Lapinskas
+  - John D. Rolston
+  - G. Rees Cosgrove
+  - Rani A. Sarkis
+  - "Alissa M. D\u2019Gama"
+  - Sanda Alexadrescu
+  - Edward Yang
+  - Annapurna Poduri
+  - R Mark Richardson
+  - E. Zeynep Erson-Omay
+  - Nihal DeLanerolle
+  - Dennis D. Spencer
+  - Katherine S.-M. Brown
+  - Michael B. Miller
+  - Amy E. Roberts
+  - Luana N. Santos
+  - Maria I. Kontaridis
+  - Christian G. Bien
+  - Stephen C. Blacklow
+  - Kristopher T. Kahle
+  - "Ingmar Bl\xFCmcke"
+  - August Yue Huang
+  - Eunjung Alice Lee
+  - Christopher A Walsh
+  publisher: openRxiv
+  date: '2026-01-27'
+  link: https://doi.org/hbxm7n
+  orcid: 0000-0003-2014-3650
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1073/pnas.2509622122
   title: Cell-type-informed genotyping of mosaic focal epilepsies reveals cell-autonomous
     and non-cell-autonomous disease-associated transcriptional programs
