@@ -1,5 +1,39 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: doi:10.1038/s41588-026-02570-6
+  title: Somatic mosaicism in ALS and FTD identifies focal mutations associated with
+    widespread degeneration
+  authors:
+  - Zinan Zhou
+  - Junho Kim
+  - August Yue Huang
+  - Matthew Nolan
+  - Junseok Park
+  - Ryan Doan
+  - Taehwan Shin
+  - Michael B. Miller
+  - Mingyun Bae
+  - Boxun Zhao
+  - Jinhyeong Kim
+  - Brian Chhouk
+  - Katherine Morillo
+  - Rebecca C. Yeh
+  - Connor Kenny
+  - Jennifer E. Neil
+  - Chao-Zong Lee
+  - Takuya Ohkubo
+  - John Ravits
+  - Olaf Ansorge
+  - Lyle W. Ostrow
+  - Clotilde Lagier-Tourenne
+  - Eunjung Alice Lee
+  - Christopher A. Walsh
+  publisher: Nature Genetics
+  date: '2026-04-15'
+  link: https://doi.org/hbxm5h
+  orcid: 0000-0003-2014-3650
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1073/pnas.2509622122
   title: Cell-type-informed genotyping of mosaic focal epilepsies reveals cell-autonomous
     and non-cell-autonomous disease-associated transcriptional programs
