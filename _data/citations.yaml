@@ -34,6 +34,51 @@
   orcid: 0000-0003-2014-3650
   plugin: orcid.py
   file: orcid.yaml
+- id: doi:10.1016/j.cell.2026.03.040
+  title: "Somatic cancer variants enriched in Alzheimer\u2019s disease microglia-like\
+    \ cells drive inflammatory and proliferative states"
+  authors:
+  - August Yue Huang
+  - Zinan Zhou
+  - Maya Talukdar
+  - Liz Enyenihi
+  - Michael B. Miller
+  - Brian Chhouk
+  - Ila Rosen
+  - Mengyue Zheng
+  - Minye Zhou
+  - Averill Yang
+  - Edward Stronge
+  - Madel Durens
+  - Minh Nguyen
+  - Jaejoon Choi
+  - Boxun Zhao
+  - Sattar Khoshkhoo
+  - Junho Kim
+  - Rebecca Andersen
+  - Zheming An
+  - Yuchen Cheng
+  - Javier Ganz
+  - Levan Mekerishvili
+  - Kyle J. Travaglini
+  - Mariano I. Gabitto
+  - Rebecca D. Hodge
+  - Eitan S. Kaplan
+  - Julia A. Belk
+  - Dan Landau
+  - Ed S. Lein
+  - Philip L. De Jager
+  - David A. Bennett
+  - Samuele G. Marro
+  - Eirini P. Papapetrou
+  - Eunjung Alice Lee
+  - Christopher A. Walsh
+  publisher: Cell
+  date: '2026-04-01'
+  link: https://doi.org/hbx8t3
+  orcid: 0000-0003-2014-3650
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.64898/2026.01.26.701822
   title: Activating Ras-MAPK pathway variants drive hippocampal clonal competition
     in human epilepsy
