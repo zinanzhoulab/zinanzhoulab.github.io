@@ -18,6 +18,10 @@ undergrad:
   icon: fa-solid fa-user-graduate
   description: Undergraduate Student
 
+research-analyst:
+  icon: fa-solid fa-chart-line
+  description: Research Analyst
+
 programmer:
   icon: fa-solid fa-code
   description: Programmer

@@ -24,5 +24,10 @@ jobs:
 
   build-site:
     needs: update-citations
-    if: needs.update-citations.outputs.changed == 'true'
+    if: |
+      needs.update-citations.result == 'success' &&
+      (
+        needs.update-citations.outputs.changed == 'true' ||
+        github.event_name == 'workflow_dispatch'
+      )
     uses: ./.github/workflows/build-site.yaml
