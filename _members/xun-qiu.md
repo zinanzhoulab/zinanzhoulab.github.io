@@ -1,5 +1,5 @@
 ---
-name: Xun Qiu, MD-PhD
+name: Xun Qiu, MD
 image: images/members/xun-qiu.png
 role: research-analyst
 ---
