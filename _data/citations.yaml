@@ -532,8 +532,9 @@
   plugin: orcid.py
   file: orcid.yaml
 - id: doi:10.1039/c5nr05362e
-  title: 'Papain-templated Cu nanoclusters: assaying and exhibiting dramatic antibacterial
-    activity cooperating with H<sub>2</sub>O<sub>2</sub>'
+  title: "Papain-templated Cu nanoclusters: assaying and exhibiting dramatic antibacterial\
+    \ activity cooperating with H\n                    <sub>2</sub>\n            \
+    \        O\n                    <sub>2</sub>"
   authors:
   - Hong Miao
   - Dan Zhong
