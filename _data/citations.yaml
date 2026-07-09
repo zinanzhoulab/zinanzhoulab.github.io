@@ -1,5 +1,36 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: doi:10.1016/j.cell.2026.06.013
+  title: Recurrent patterns of TOP1-mediated neuronal genomic damage shared by major
+    neurodegenerative disorders
+  authors:
+  - Zinan Zhou
+  - Lovelace J. Luquette
+  - Guanlan Dong
+  - Junho Kim
+  - Jayoung Ku
+  - Kisong Kim
+  - Nandini Ramesh
+  - Mingyun Bae
+  - Ann Caplin
+  - Diane D. Shao
+  - Bezawit Sahile
+  - Kow Essuman
+  - Eitan Goodman
+  - Michael B. Miller
+  - August Yue Huang
+  - William J. Nathan
+  - Andre Nussenzweig
+  - Peter J. Park
+  - Clotilde Lagier-Tourenne
+  - Eunjung Alice Lee
+  - Christopher A. Walsh
+  publisher: Cell
+  date: '2026-07-01'
+  link: https://doi.org/hb9zc4
+  orcid: 0000-0003-2014-3650
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1038/s41588-026-02570-6
   title: Somatic mosaicism in ALS and FTD identifies focal mutations associated with
     widespread degeneration
@@ -31,6 +62,119 @@
   publisher: Nature Genetics
   date: '2026-04-15'
   link: https://doi.org/hbxm5h
+  orcid: 0000-0003-2014-3650
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.cell.2026.03.040
+  title: "Somatic cancer variants enriched in Alzheimer\u2019s disease microglia-like\
+    \ cells drive inflammatory and proliferative states"
+  authors:
+  - August Yue Huang
+  - Zinan Zhou
+  - Maya Talukdar
+  - Liz Enyenihi
+  - Michael B. Miller
+  - Brian Chhouk
+  - Ila Rosen
+  - Mengyue Zheng
+  - Minye Zhou
+  - Averill Yang
+  - Edward Stronge
+  - Madel Durens
+  - Minh Nguyen
+  - Jaejoon Choi
+  - Boxun Zhao
+  - Sattar Khoshkhoo
+  - Junho Kim
+  - Rebecca Andersen
+  - Zheming An
+  - Yuchen Cheng
+  - Javier Ganz
+  - Levan Mekerishvili
+  - Kyle J. Travaglini
+  - Mariano I. Gabitto
+  - Rebecca D. Hodge
+  - Eitan S. Kaplan
+  - Julia A. Belk
+  - Dan Landau
+  - Ed S. Lein
+  - Philip L. De Jager
+  - David A. Bennett
+  - Samuele G. Marro
+  - Eirini P. Papapetrou
+  - Eunjung Alice Lee
+  - Christopher A. Walsh
+  publisher: Cell
+  date: '2026-06-01'
+  link: https://doi.org/hbx8t3
+  orcid: 0000-0003-2014-3650
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.64898/2026.01.26.701822
+  title: Activating Ras-MAPK pathway variants drive hippocampal clonal competition
+    in human epilepsy
+  authors:
+  - Sattar Khoshkhoo
+  - Mingyun Bae
+  - Yilan Wang
+  - Ashton Tillett
+  - Rosita B. Ramirez
+  - Benjamin Finander
+  - Emily D. Egan
+  - Linus Marx
+  - Dipan Patel
+  - Zinan Zhou
+  - Yasmine Chahine
+  - Brian Chhouk
+  - Sofia M. Zoullas
+  - Abbe Lai
+  - Roland Coras
+  - Franck Bielle
+  - Vincent Navarro
+  - Bertrand Mathon
+  - Taufik A. Valiante
+  - Homeira Moradi Chameh
+  - Andrew F. Gao
+  - Timo Krings
+  - Samuel Gooley
+  - Michael S. Hildebrand
+  - Kristian Bulluss
+  - Jonathan Clark
+  - Andrew P. Morokoff
+  - James A. King
+  - Marian Todaro
+  - Patrick Kwan
+  - "Terence J. O\u2019Brien"
+  - Samuel F. Berkovic
+  - Ingrid E. Scheffer
+  - Piero Perucca
+  - Emily Lapinskas
+  - John D. Rolston
+  - G. Rees Cosgrove
+  - Rani A. Sarkis
+  - "Alissa M. D\u2019Gama"
+  - Sanda Alexadrescu
+  - Edward Yang
+  - Annapurna Poduri
+  - R Mark Richardson
+  - E. Zeynep Erson-Omay
+  - Nihal DeLanerolle
+  - Dennis D. Spencer
+  - Katherine S.-M. Brown
+  - Michael B. Miller
+  - Amy E. Roberts
+  - Luana N. Santos
+  - Maria I. Kontaridis
+  - Christian G. Bien
+  - Stephen C. Blacklow
+  - Kristopher T. Kahle
+  - "Ingmar Bl\xFCmcke"
+  - August Yue Huang
+  - Eunjung Alice Lee
+  - Christopher A Walsh
+  publisher: openRxiv
+  date: '2026-01-27'
+  link: https://doi.org/hbxm7n
   orcid: 0000-0003-2014-3650
   plugin: orcid.py
   file: orcid.yaml
@@ -109,26 +253,30 @@
   plugin: orcid.py
   file: orcid.yaml
 - id: doi:10.1101/2025.03.03.641186
-  title: Recurrent patterns of widespread neuronal genomic damage shared by major
+  title: Recurrent patterns of TOP1-mediated neuronal genomic damage shared by major
     neurodegenerative disorders
   authors:
   - Zinan Zhou
-  - Lovelace J. Luquette
+  - Lovelace J Luquette
   - Guanlan Dong
   - Junho Kim
   - Jayoung Ku
   - Kisong Kim
+  - Nandini Ramesh
   - Mingyun Bae
-  - Diane D. Shao
+  - Ann Caplin
+  - Diane D Shao
   - Bezawit Sahile
-  - Michael B. Miller
+  - Kow Essuman
+  - Eitan Goodman
+  - Michael B Miller
   - August Yue Huang
   - William J. Nathan
   - Andre Nussenzweig
-  - Peter J. Park
+  - Peter J Park
   - Clotilde Lagier-Tourenne
   - Eunjung Alice Lee
-  - Christopher A. Walsh
+  - Christopher A Walsh
   publisher: bioRxiv
   date: '2025-03-05'
   link: https://doi.org/hbp59z
@@ -218,8 +366,8 @@
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1101/2023.11.30.569436
-  title: Somatic Mosaicism in Amyotrophic Lateral Sclerosis and Frontotemporal Dementia
-    Reveals Widespread Degeneration from Focal Mutations
+  title: Somatic mosaicism in amyotrophic lateral sclerosis and frontotemporal dementia
+    identifies focal mutations associated with widespread degeneration
   authors:
   - Zinan Zhou
   - Junho Kim
@@ -229,6 +377,9 @@
   - Ryan Doan
   - Taehwan Shin
   - Michael B. Miller
+  - Mingyun Bae
+  - Boxun Zhao
+  - Jinhyeong Kim
   - Brian Chhouk
   - Katherine Morillo
   - Rebecca C. Yeh
@@ -412,8 +563,9 @@
   plugin: orcid.py
   file: orcid.yaml
 - id: doi:10.1039/c5nr05362e
-  title: 'Papain-templated Cu nanoclusters: assaying and exhibiting dramatic antibacterial
-    activity cooperating with H<sub>2</sub>O<sub>2</sub>'
+  title: "Papain-templated Cu nanoclusters: assaying and exhibiting dramatic antibacterial\
+    \ activity cooperating with H\n                    <sub>2</sub>\n            \
+    \        O\n                    <sub>2</sub>"
   authors:
   - Hong Miao
   - Dan Zhong
