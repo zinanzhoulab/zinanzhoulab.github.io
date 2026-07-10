@@ -12,6 +12,8 @@ on:
 permissions:
   contents: write
   pull-requests: write
+  pages: write
+  id-token: write
 
 jobs:
   update-citations:
@@ -22,7 +24,7 @@ jobs:
     with:
       open-pr: false
 
-  build-site:
+  deploy-site:
     needs: update-citations
     if: |
       needs.update-citations.result == 'success' &&
@@ -30,4 +32,4 @@ jobs:
         needs.update-citations.outputs.changed == 'true' ||
         github.event_name == 'workflow_dispatch'
       )
-    uses: ./.github/workflows/build-site.yaml
+    uses: ./.github/workflows/jekyll.yml
