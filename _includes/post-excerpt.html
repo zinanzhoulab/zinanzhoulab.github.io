@@ -20,7 +20,7 @@
       {% assign image = post.image | relative_url | uri_escape %}
     {% endif %}
 
-    {% if image != blank %}
+    {% if include.hide_image != true and image != blank %}
       <a
         href="{{ url }}"
         class="post-excerpt-image"
