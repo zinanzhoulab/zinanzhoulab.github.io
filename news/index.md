@@ -11,8 +11,9 @@ nav:
 
 {% include search-box.html %}
 
-{% include tags.html tags=site.tags %}
+{% assign news_tags = site.data.news | map: "tags" | join: "," %}
+{% include tags.html tags=news_tags %}
 
 {% include search-info.html %}
 
-{% include list.html data="posts" component="post-excerpt" %}
+{% include list.html data="news" component="post-excerpt" %}

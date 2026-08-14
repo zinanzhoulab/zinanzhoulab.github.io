@@ -10,9 +10,15 @@
 
 <div class="post-excerpt-container">
   <div class="post-excerpt">
-    {% assign url = post.url | relative_url | uri_escape %}
+    {% assign url = "" %}
+    {% if post.url %}
+      {% assign url = post.url | relative_url | uri_escape %}
+    {% endif %}
     {% assign title = post.title %}
-    {% assign image = post.image | relative_url | uri_escape %}
+    {% assign image = "" %}
+    {% if post.image %}
+      {% assign image = post.image | relative_url | uri_escape %}
+    {% endif %}
 
     {% if image %}
       <a
@@ -30,7 +36,11 @@
     {% endif %}
 
     <div class="post-excerpt-text">
-      <a href="{{ url }}">{{ title }}</a>
+      {% if url and url != "" %}
+        <a href="{{ url }}" class="post-excerpt-title">{{ title }}</a>
+      {% else %}
+        <span class="post-excerpt-title">{{ title }}</span>
+      {% endif %}
 
       {%
         include post-info.html
@@ -52,9 +62,11 @@
         | strip_newlines
         | regex_strip
       %}
-      <p data-search="{{ search }}">
-        {{ excerpt }}
-      </p>
+      {% if excerpt and excerpt != "" %}
+        <p data-search="{{ search }}">
+          {{ excerpt }}
+        </p>
+      {% endif %}
     </div>
   </div>
 </div>
