@@ -37,7 +37,7 @@
   margin: 0 !important;
 }
 
-.post-excerpt-text > a:first-child {
+.post-excerpt-title {
   width: 100%;
   font-weight: var(--semi-bold);
 }
