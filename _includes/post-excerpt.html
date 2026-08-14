@@ -11,16 +11,16 @@
 <div class="post-excerpt-container">
   <div class="post-excerpt">
     {% assign url = "" %}
-    {% if post.url %}
+    {% if post.url and post.url != blank %}
       {% assign url = post.url | relative_url | uri_escape %}
     {% endif %}
     {% assign title = post.title %}
     {% assign image = "" %}
-    {% if post.image %}
+    {% if post.image and post.image != blank %}
       {% assign image = post.image | relative_url | uri_escape %}
     {% endif %}
 
-    {% if image %}
+    {% if image != blank %}
       <a
         href="{{ url }}"
         class="post-excerpt-image"

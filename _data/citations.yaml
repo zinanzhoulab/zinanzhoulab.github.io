@@ -283,33 +283,6 @@
   orcid: 0000-0003-2014-3650
   plugin: sources.py
   file: sources.yaml
-- id: doi:10.1101/2024.10.01.615793
-  title: Cell-type-informed genotyping of mosaic focal epilepsies reveals cell-autonomous
-    and non-cell-autonomous disease-associated transcriptional programs
-  authors:
-  - Sara Bizzotto
-  - Edward A. Stronge
-  - Maya Talukdar
-  - Qiwen Hu
-  - Zinan Zhou
-  - August Yue Huang
-  - Brian H. Chhouk
-  - "Alissa M. D\u2019Gama"
-  - Edward Yang
-  - Timothy E. Green
-  - David C. Reutens
-  - Saul A. Mullen
-  - Michael S. Hildebrand
-  - Russell J Buono
-  - Annapurna H. Poduri
-  - Sattar Khoshkhoo
-  - Christopher A. Walsh
-  publisher: openRxiv
-  date: '2024-10-02'
-  link: https://doi.org/hcfhxs
-  orcid: 0000-0003-2014-3650
-  plugin: orcid.py
-  file: orcid.yaml
 - id: doi:10.1007/s00401-024-02774-2
   title: Neuropathologically directed profiling of PRNP somatic and germline variants
     in sporadic human prion disease
