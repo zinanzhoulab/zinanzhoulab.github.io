@@ -41,6 +41,7 @@
 
 .citation-title,
 .citation-authors,
+.citation-author-notes,
 .citation-details,
 .citation-description {
   width: 100%;
@@ -66,6 +67,19 @@
 
 .citation-description {
   color: var(--gray);
+}
+
+.citation-author-notes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0 0.75em;
+  color: var(--gray);
+  font-size: 0.85em;
+}
+
+.citation-author-marker {
+  font-size: 0.75em;
+  line-height: 0;
 }
 
 .citation-buttons {
