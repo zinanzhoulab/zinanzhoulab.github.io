@@ -78,6 +78,21 @@ class AuthorshipTest < Minitest::Test
     assert_equal '[no author info]', render_authors('unknown', [])
   end
 
+  def test_additional_journal_articles_render_annotations_without_local_citations
+    review = 'doi:10.1038/s41582-026-01268-x'
+    html = render_authors(review, ['Zinan Zhou', 'Christopher A. Walsh'])
+    assert_equal 2, html.scan('title="Corresponding author"').size
+    refute_includes html, '&#8224;'
+
+    cell = 'doi:10.1016/j.cell.2026.06.013'
+    assert_equal ['Zinan Zhou', 'Lovelace J. Luquette', 'Guanlan Dong'], DATA[cell]['cofirst']
+    authors = (DATA[cell]['cofirst'] + DATA[cell]['corresponding']).uniq
+    html = render_authors(cell, authors)
+    assert_equal 3, html.scan('title="Co-first author; equal contribution"').size
+    assert_equal 6, html.scan('title="Corresponding author"').size
+    refute_includes DATA['doi:10.1101/2025.03.03.641186']['corresponding'], 'Zinan Zhou'
+  end
+
   def test_cea_first_page_confirms_only_one_corresponding_author
     roles = DATA['doi:10.1016/j.bios.2016.06.043']
     assert_equal [], roles['cofirst']

@@ -17,7 +17,8 @@ even when other middle authors are abbreviated.
 
 ## Remaining verification
 
-None for the 22 local citations reviewed here.
+None for the original 22 local citations and the two additional journal articles
+identified in the user's website screenshot (24 annotation records total).
 
 ## Follow-up evidence
 
@@ -42,8 +43,11 @@ None for the 22 local citations reviewed here.
 no designation for that role. Neither produces markers on the site. These review
 notes are for maintenance, not displayed to visitors.
 
-The local file does not contain the journal article `10.1016/j.cell.2026.06.013`.
-It was not reintroduced or substituted for its preprint as part of this change.
+The local generated file does not contain `10.1016/j.cell.2026.06.013` or
+`10.1038/s41582-026-01268-x`, although both appear on the user's website.
+Their annotations were verified separately against the accepted Cell manuscript
+and Nature Reviews Neurology publisher page and added by DOI. The local generated
+citation file was not used to overwrite the newer website publication list.
 
 ## Maintenance
 
