@@ -1,0 +1,28 @@
+{%- assign roles = site.data.authorship[include.id] -%}
+{%- assign author_count = include.authors.size -%}
+{%- assign last_start = author_count | minus: 5 -%}
+{%- assign emitted = false -%}
+{%- assign omitted = false -%}
+{%- for author in include.authors -%}
+  {%- assign cofirst = false -%}
+  {%- assign corresponding = false -%}
+  {%- if roles.cofirst contains author -%}
+    {%- assign cofirst = true -%}
+  {%- endif -%}
+  {%- if roles.corresponding contains author -%}
+    {%- assign corresponding = true -%}
+  {%- endif -%}
+  {%- if author_count <= 10 or forloop.index0 < 5 or forloop.index0 >= last_start or cofirst or corresponding -%}
+    {%- if emitted -%}, {% endif -%}
+    {%- if omitted -%}..., {% assign omitted = false %}{%- endif -%}
+    {{- author | escape -}}
+    {%- if cofirst or corresponding -%}
+      <sup class="citation-author-marker">{%- if cofirst -%}<span title="Co-first author; equal contribution">&#8224;</span>{%- endif -%}{%- if cofirst and corresponding -%},{%- endif -%}{%- if corresponding -%}<span title="Corresponding author">*</span>{%- endif -%}</sup>
+    {%- endif -%}
+    {%- assign emitted = true -%}
+  {%- else -%}
+    {%- assign omitted = true -%}
+  {%- endif -%}
+{%- else -%}
+  [no author info]
+{%- endfor -%}

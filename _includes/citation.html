@@ -30,17 +30,20 @@
         {% endif %}
         tabindex="0"
       >
-        {{
-          citation.authors
-          | join: ","
-          | split: ","
-          | array_carve: 5
-          | join: ", "
-          | markdownify
-          | remove: "<p>" | remove: "</p>"
-          | default: "[no author info]"
-        }}
+        {% include citation-authors.html authors=citation.authors id=citation.id %}
       </div>
+
+      {% assign authorship = site.data.authorship[citation.id] %}
+      {% if authorship.cofirst.size > 0 or authorship.corresponding.size > 0 %}
+        <div class="citation-author-notes">
+          {% if authorship.cofirst.size > 0 %}
+            <span>&#8224; Co-first authors; equal contribution.</span>
+          {% endif %}
+          {% if authorship.corresponding.size > 0 %}
+            <span>* {% if authorship.corresponding.size > 1 %}Co-corresponding authors.{% else %}Corresponding author.{% endif %}</span>
+          {% endif %}
+        </div>
+      {% endif %}
 
       <div class="citation-details">
         <span class="citation-publisher">

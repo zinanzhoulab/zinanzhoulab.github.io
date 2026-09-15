@@ -1,0 +1,141 @@
+# Manually verified author roles. Independent of the generated citations.yaml.
+# Names must match citations.yaml exactly. null means unverified, not no authors.
+# Empty lists mean no such designation was found in the inspected author notes.
+# Each DOI is reviewed separately; preprint roles are not copied from journal articles.
+
+doi:10.1038/s41588-026-02570-6:
+  cofirst: [Zinan Zhou, Junho Kim, August Yue Huang]
+  corresponding: [Clotilde Lagier-Tourenne, Eunjung Alice Lee, Christopher A. Walsh]
+  source: https://www.nature.com/articles/s41588-026-02570-6
+  evidence: Author notes name the three equal contributors; the correspondence section names three contacts.
+
+doi:10.1016/j.cell.2026.03.040:
+  cofirst: [August Yue Huang, Zinan Zhou, Maya Talukdar, Liz Enyenihi]
+  corresponding: [August Yue Huang, Samuele G. Marro, Eirini P. Papapetrou, Eunjung Alice Lee, Christopher A. Walsh]
+  source: https://pmc.ncbi.nlm.nih.gov/articles/PMC13107304/
+  evidence: Footnote 22 identifies four equal contributors; the correspondence note identifies five contacts.
+
+doi:10.64898/2026.01.26.701822:
+  cofirst: [Sattar Khoshkhoo, Mingyun Bae]
+  corresponding: [Sattar Khoshkhoo, Eunjung Alice Lee, Christopher A Walsh]
+  source: https://pmc.ncbi.nlm.nih.gov/articles/PMC12873922/
+  evidence: Version 1 marks the first two authors as equal contributors and names three correspondence contacts. The separate senior equal-contribution group is not co-first authorship.
+
+doi:10.1073/pnas.2509622122:
+  cofirst: [Sara Bizzotto, Maya Talukdar, Edward A. Stronge]
+  corresponding: [Sara Bizzotto, Sattar Khoshkhoo, Christopher A. Walsh]
+  source: https://pmc.ncbi.nlm.nih.gov/articles/PMC12305027/
+  evidence: Footnote 1 identifies three equal first authors; footnote 2 identifies three contacts. Footnote 3 is a separate senior equal-contribution group.
+
+doi:10.1101/2025.05.19.654981:
+  cofirst: [Jaejoon Choi, Kyung Sun Park, Yann Le Guen]
+  corresponding: [Jong-Won Kim, August Yue Huang, Eunjung Alice Lee]
+  source: https://pmc.ncbi.nlm.nih.gov/articles/PMC12139797/
+  evidence: User-supplied manuscript screenshots mark Choi, Park, and Le Guen with daggers for equal contribution, and Kim, Huang, and Lee with asterisks explicitly defined as corresponding authors.
+  supplied_evidence:
+    - codex-clipboard-9712eca5-b7af-4681-a583-63dd90a6ccef.png
+    - codex-clipboard-7e0fa81a-577b-4a8f-8c90-ff255cf58535.png
+
+doi:10.1038/s41576-025-00832-3:
+  cofirst: []
+  corresponding: [Diane D. Shao, Christopher Walsh]
+  source: https://www.nature.com/articles/s41576-025-00832-3
+  evidence: The publisher names two correspondence contacts; no equal-first designation appears in the author information.
+
+doi:10.1101/2025.03.03.641186:
+  cofirst: [Zinan Zhou, Lovelace J. Luquette, Guanlan Dong]
+  corresponding: [Peter J. Park, Clotilde Lagier-Tourenne, Eunjung Alice Lee, Christopher A. Walsh]
+  source: https://pmc.ncbi.nlm.nih.gov/articles/PMC11908196/
+  evidence: The archived March 2025 preprint marks three equal first authors and explicitly names four corresponding authors.
+
+doi:10.1007/s00401-024-02774-2:
+  cofirst: [Gannon A. McDonough, Yuchen Cheng]
+  corresponding: [August Yue Huang, Michael B. Miller]
+  source: https://pmc.ncbi.nlm.nih.gov/articles/PMC11328154/
+  evidence: Author notes identify two equal contributors and two correspondence contacts.
+
+doi:10.1016/j.cell.2024.02.025:
+  cofirst: [Javier Ganz, Lovelace J. Luquette, Sara Bizzotto]
+  corresponding: [Peter J. Park, Christopher A. Walsh]
+  source: https://pmc.ncbi.nlm.nih.gov/articles/PMC11062076/
+  evidence: Footnote 8 identifies the first three authors; the correspondence note names Park and Walsh.
+
+doi:10.1101/2024.01.03.574078:
+  cofirst: [August Yue Huang, Zinan Zhou, Maya Talukdar]
+  corresponding: [Eunjung Alice Lee, Christopher A. Walsh]
+  source: https://pmc.ncbi.nlm.nih.gov/articles/PMC10802273/
+  evidence: Version 1 marks three equal first authors and two correspondence contacts. The journal article has different author roles.
+
+doi:10.1101/2023.11.30.569436:
+  cofirst: [Zinan Zhou, Junho Kim, August Yue Huang]
+  corresponding: [Clotilde Lagier-Tourenne, Eunjung Alice Lee, Christopher A. Walsh]
+  source: https://pmc.ncbi.nlm.nih.gov/articles/PMC10705414/
+  evidence: Footnote 12 identifies three equal contributors. Footnote 13 names joint supervisors and their emails; coauthor Zinan Zhou explicitly confirmed that these three are also co-corresponding authors.
+  supplied_evidence: codex-clipboard-776b4186-660f-498b-917c-c1ed1405e1cd.png plus coauthor confirmation in this conversation
+
+doi:10.1038/s41588-022-01180-2:
+  cofirst: [Lovelace J. Luquette, Michael B. Miller, Zinan Zhou]
+  corresponding: [Christopher A. Walsh, Peter J. Park]
+  source: https://pmc.ncbi.nlm.nih.gov/articles/PMC9833626/
+  evidence: The first three authors carry the equal-contribution marker; author notes give correspondence contacts for Walsh and Park.
+
+doi:10.1038/s43587-022-00261-5:
+  cofirst: [Sangita Choudhury, August Yue Huang]
+  corresponding: [Sangita Choudhury, Eunjung Alice Lee, Ming Hui Chen, Christopher A. Walsh]
+  source: https://pmc.ncbi.nlm.nih.gov/articles/PMC9432807/
+  evidence: Footnote 13 identifies two equal first authors; the correspondence statement names four contacts.
+
+doi:10.1038/s41586-022-04640-1:
+  cofirst: [Michael B. Miller, August Yue Huang]
+  corresponding: [Michael A. Lodato, Eunjung Alice Lee, Christopher A. Walsh]
+  source: https://pmc.ncbi.nlm.nih.gov/articles/PMC9357465/
+  evidence: The first two authors carry the equal-contribution marker; the correspondence statement names three contacts.
+
+doi:10.1158/2159-8290.cd-21-0245:
+  cofirst: [Javier Ganz, Eduardo A. Maury]
+  corresponding: [Eunjung Alice Lee, Christopher A. Walsh]
+  source: https://pmc.ncbi.nlm.nih.gov/articles/PMC8758513/
+  evidence: The author notes explicitly identify two equal contributors and two corresponding authors.
+
+doi:10.1371/journal.pone.0160833:
+  cofirst: []
+  corresponding: [Xiangjian Zheng]
+  source: https://pmc.ncbi.nlm.nih.gov/articles/PMC4981389/
+  evidence: Zheng alone has the correspondence marker; no equal-first designation appears in the author notes.
+
+doi:10.1016/j.bios.2016.06.043:
+  cofirst: []
+  corresponding: [Xiaoming Yang]
+  source: https://pubmed.ncbi.nlm.nih.gov/27336615/
+  evidence: User-provided first-page screenshot shows no equal-contribution markers and explicitly identifies Xiaoming Yang as the sole corresponding author in the asterisk footnote.
+  supplied_evidence: codex-clipboard-15dddd81-6654-4dd2-9dc3-cc865b2d82ed.png
+
+doi:10.1038/nature17178:
+  cofirst: [Zinan Zhou, Alan T. Tang]
+  corresponding: [Mark L. Kahn]
+  source: https://pmc.ncbi.nlm.nih.gov/articles/PMC4864035/
+  evidence: The first two authors carry the equal-contribution marker; correspondence is explicitly addressed to Kahn.
+
+doi:10.1039/c5nr05362e:
+  cofirst: []
+  corresponding: [Xiaoming Yang]
+  source: https://pubs.rsc.org/en/content/articlelanding/2015/nr/c5nr05362e
+  evidence: The publisher author byline marks Yang as corresponding author and shows no equal-first annotation.
+
+doi:10.1016/j.devcel.2014.12.009:
+  cofirst: [Zinan Zhou, David R. Rawnsley]
+  corresponding: [Xiangjian Zheng, "Mark\u00a0L. Kahn"]
+  source: https://pmc.ncbi.nlm.nih.gov/articles/PMC4589864/
+  evidence: The first two authors carry the equal-contribution marker; correspondence is explicitly addressed to Zheng and Kahn.
+
+doi:10.1002/rcm.6958:
+  cofirst: []
+  corresponding: [Ian A. Blair]
+  source: https://pmc.ncbi.nlm.nih.gov/articles/PMC4286313/
+  evidence: Correspondence is explicitly addressed to Blair; no equal-first designation appears in the author notes.
+
+doi:10.1074/jbc.c109.001560:
+  cofirst: []
+  corresponding: [Xiaoqi Liu]
+  source: https://pmc.ncbi.nlm.nih.gov/articles/PMC2707202/
+  evidence: Footnote 2 identifies Liu as the correspondence contact; footnote 1 is funding support, not equal contribution.
